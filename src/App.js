@@ -18,7 +18,7 @@ function App() {
       <div className='body1'>
 
         <Alldetails />
-        <Casestatus />
+        {/* <Casestatus /> */}
         <Loginsignup />
         <Dashboard/>
       </div>

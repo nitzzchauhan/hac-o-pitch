@@ -12,6 +12,5 @@ function Casestatus() {
         </>
     )
 }
-hdfjfyoguoghlgupoyubdfydturyitydfhgfjfjyjgfjtygit 
 
 export default Casestatus

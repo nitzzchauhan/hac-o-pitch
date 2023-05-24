@@ -8,7 +8,11 @@ import BalanceOutlinedIcon from '@mui/icons-material/BalanceOutlined';
 
 
 export default function Alldetails() {
+    var reset = ()=>{
+       document.getElementById("outlined-basic").value = "";
+    }
     return (
+        
         <>
             <div >
 
@@ -54,7 +58,7 @@ export default function Alldetails() {
                         <div className="midwin">
                             <div className="center">Search by Filing Number</div>
                             <div className="top">
-                                <TextField fullWidth className="textfield" id="outlined-basic" label="CourtComplex" variant="outlined" />
+                                <TextField fullWidth className="textfield" id="outlined-basic" label="CourtComplex" variant="outlined"  />
                             </div>
                             <div className="top">
                                 <TextField fullWidth className="textfield" id="outlined-basic" label="Filing Number" variant="outlined" />
@@ -83,8 +87,8 @@ export default function Alldetails() {
                             <div className="top">
                                 <TextField fullWidth className="textfield" id="outlined-basic" label="Enter Year" variant="outlined" />
                             </div>
-                            <Button style={{ marginBottom: "10px" }} fullWidth variant="contained">Submit</Button>
-                            <Button fullWidth variant="contained">Reset</Button>
+                            <Button style={{ marginBottom: "10px" }} fullWidth variant="contained" href="Casestatus.jpeg" target="_blank">Submit</Button>
+                            <Button fullWidth onClick={reset} variant="contained">Reset</Button>
                         </div>
                     </Grid>
                 </Grid>
