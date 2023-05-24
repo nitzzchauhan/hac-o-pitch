@@ -1,24 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
+
+// import Smartcases from './Pages/SearchCases' ;
+// import Details1 from './Pages/Details1' ;
+// import Details2 from './Pages/Details2';
+// import Details3 from './Pages/Details3';
+import Alldetails from './Pages/Alldetails'
+import Casestatus from './Pages/Casestatus';
+import Dashboard from './Pages/Dashboard';
+import Loginsignup from './Pages/Loginsignup';
+import "./Pages/maindesign.css"
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className='body1'>
+
+        <Alldetails />
+        <Casestatus />
+        <Loginsignup />
+        <Dashboard/>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+      {/* <Smartcases/> */}
+      {/* <Details1/>
+    <Details2/>
+    <Details3/> */}
+    </>
   );
 }
 
