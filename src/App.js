@@ -4,7 +4,7 @@
 // import Details2 from './Pages/Details2';
 // import Details3 from './Pages/Details3';
 import Alldetails from './Pages/Alldetails'
-import Casestatus from './Pages/Casestatus';
+// import Casestatus from './Pages/Casestatus';
 import Dashboard from './Pages/Dashboard';
 import Loginsignup from './Pages/Loginsignup';
 import "./Pages/maindesign.css"
@@ -20,7 +20,8 @@ function App() {
         <Alldetails />
         {/* <Casestatus /> */}
         <Loginsignup />
-        <Dashboard/>
+        <Dashboard />
+          
       </div>
 
 
